@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+:root{
+    --font-family: 'Cute Font', sans-serif;
+    --background-gradiant: linear-gradient(to bottom,#49299A,#45EDF2 );
+    --background-gra: linear-gradient(to bottom,#4A6D71,#82B8BD );
+    --border: #45EDF2;
+}
+
+/* nav-section-start */
+/* nav-section-end */
