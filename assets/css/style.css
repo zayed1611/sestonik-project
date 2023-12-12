@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Cute+Font&display=swap');
-
+@font-face {
+    font-family: Cyberwar;
+    src: url(../font/CyberwarRegular.ttf);
+  }
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     
 }
+
 :root{
     --font-family: 'Cute Font', sans-serif;
     --background-gradiant: linear-gradient(to bottom,#49299A,#45EDF2 );
@@ -18,43 +22,43 @@
 /* nav-section-start */
 #navigation{
     background-color: var(--background-color);
+    
 }
 
 
 .navbar-brand img{
     width: 80%;
 }
+
 .social-nav img{
   width: 15px;
   height: 15px;
+  margin-right: 10px;
+}
+
+.social-nav.nav-ins{
+    margin-right: 20px !important;
 }
 .nav-button{
-    /* background: var(--background-gradiant); */
+    background: var(--background-gradiant);
+font-family: cyberwar;
+    padding: 5px 20px !important;
+    font-size: 12px;
+  color: #fff !important;
+  clip-path: polygon(20% 0%, 84% 0, 100% 48%, 100% 100%, 80% 100%, 16% 100%, 0 50%, 0 0);
 
-    padding: 12px 15px;
-    position: relative;
-    background-color: #222630   ;
-    background: linear-gradient(-155deg,transparent 45px , to bottom,#49299A,#45EDF2  0) top right,
-    linear-gradient(45deg, transparent 45px , #ddd 0) bottom left;
-    background-size: 100% 50%;background-repeat: no-repeat;
+
 }
-/* nav-section-end */
-/* .box{
+/* nav-section-end  */
+
+
+/* .box{                                                                 
     width: 300px;
-    height: 300px;
+    height: 300px;  
     background-color: #ddd;
- position: relative;
- margin: 100 auto;
-} */
-/* .two{
-    width: 300px;
-    height: 300px;
-    background-color: #ddd;
-    margin: 100 auto; 
- position: relative;
- 
-    background-color: #222630   ;
-    background: linear-gradient(-135deg,transparent 45px , #ddd 0) top right,
-    linear-gradient(45deg, transparent 45px , #ddd 0) bottom left;
-    background-size: 100% 50%;background-repeat: no-repeat;
+ margin: 100px auto;
+ clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 100%, 80% 100%, 20% 100%, 0% 80%, 0 0);
+}
+h1{
+    font-family: Cyberwar;
 } */
