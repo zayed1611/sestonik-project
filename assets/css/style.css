@@ -13,29 +13,40 @@
 :root{
     --font-family: 'Cute Font', sans-serif;
     --background-gradiant: linear-gradient(to bottom,#49299A,#45EDF2 );
-    --background-gra: linear-gradient(to bottom,#4A6D71,#82B8BD );
+    --background-gra: linear-gradient(to bottom,#4A6D71,#092022);
     --border: #45EDF2;
     --background-color: #181B20;
     --fotter-background-color: #222630;
+    --white:#fff;
+    --font-family-heading: Cyberwar;
 }
-
+.container{
+    width: 80% !important;
+    margin: auto;
+}
 /* nav-section-start */
 #navigation{
     background-color: var(--background-color);
     
 }
-
-
 .navbar-brand img{
-    width: 80%;
+    width: 70%;
 }
 
+.nav-link {
+   font-family: var(--font-family);
+    color: var(--white) !important;
+    font-size: 23px !important;
+    padding: 2px 10px;
+    clip-path: polygon(20% 0%, 84% 0, 100% 48%, 100% 100%, 80% 100%, 16% 100%, 0 50%, 0 0);
+    position: relative;
+ 
+}
 .social-nav img{
   width: 15px;
   height: 15px;
   margin-right: 10px;
 }
-
 .social-nav.nav-ins{
     margin-right: 20px !important;
 }
@@ -49,16 +60,154 @@ font-family: cyberwar;
 
 
 }
+
+
+
+.dropdown:hover > .dropdown-menu {
+    display: block;
+    margin-top: 0.125em;
+}
+
+.navbar-brand img {
+    padding: 0;
+}
+  
+.nav-item .navbar-link {
+    position: relative;
+    font-size: 18px;
+    padding: 5px 0;
+    display: inline-block;
+    text-transform: uppercase;
+}
+ 
+
+.nav-item .nav-link::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+    background: var(--border);
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.4s linear;
+}
+
+.nav-item .nav-link:hover::before {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+.dropdown-menu .dropdown-item::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+    background: var(--border);
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.4s linear;
+}
+
+.dropdown-menu .dropdown-item:hover::before {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
 /* nav-section-end  */
 
-
-/* .box{                                                                 
-    width: 300px;
-    height: 300px;  
-    background-color: #ddd;
- margin: 100px auto;
- clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 100%, 80% 100%, 20% 100%, 0% 80%, 0 0);
+/* hero-section-start */
+#hero-section{
+    background: url(../img/Hero\ Section\ Design.png);
+    /* height: 550px; */
+    width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  background-color: var(--background-color); 
 }
-h1{
-    font-family: Cyberwar;
-} */
+
+.hero-section-left{
+    padding: 120px 20px;
+}
+.hero-section-left h2{
+    font-family: var(--font-family-heading);
+    color: var(--white);
+}
+.hero-section-left h1{
+    font-size: 50px;
+    font-family: var(--font-family-heading);
+   background: var(--background-gradiant);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.hero-section-left p{
+    font-family: var(--font-family);
+    color: var(--white);
+    margin-top: 50px;
+    font-size: 17px;
+}
+.hero-section-left-button{
+    background: var(--background-gradiant);
+    font-family: cyberwar;
+        padding: 5px 20px !important;
+        font-size: 12px;
+      color: #fff !important;
+      clip-path: polygon(20% 0%, 84% 0, 100% 48%, 100% 100%, 80% 100%, 16% 100%, 0 50%, 0 0);
+}
+.hero-section-left-button i{
+    margin-left: 10px;
+}
+.hero-section-right{
+    padding: 100px 0px;  
+}
+.hero-section-right img{
+    width: 100%;
+    /* margin-top: 150px;  
+    margin-left: 70px;  */
+}
+
+
+
+/* hero-section-end */
+
+
+/* counter-section-start */
+#counter-section{
+    background-color: var(--background-color);
+    padding: 50px 0px;
+}
+.counter{
+    padding: 10px 20px;
+    font-family: vr;
+    background: var(--background-gra);
+}
+.counter-one{
+    clip-path: polygon(50% 0%, 87% 0, 100% 36%, 100% 100%, 15% 100%, 0 60%, 0 0);
+}
+.counter-two{
+    clip-path: polygon(50% 0%, 87% 0, 100% 36%, 100% 100%, 15% 100%, 0 60%, 0 0);
+ transform: translateY(-70px);
+}
+.counter-three{
+    clip-path: polygon(12% 0, 100% 0, 100% 59%, 87% 100%, 0 100%, 0 60%, 0 34%);
+    transform: translateY(-70px);  
+}
+.counter-four{
+    clip-path: polygon(12% 0, 100% 0, 100% 59%, 87% 100%, 0 100%, 0 60%, 0 34%);
+
+}
+.counter h2{
+    text-align: center;
+    font-family: var(--font-family-heading);
+    color: var(--white);
+    font-size: 40px;
+}
+.counter h4{
+font-family: var(--font-family);
+    text-align: center;
+    color: var(--white);
+}
+/* counter-section-end */
