@@ -11,7 +11,50 @@
     --background-gradiant: linear-gradient(to bottom,#49299A,#45EDF2 );
     --background-gra: linear-gradient(to bottom,#4A6D71,#82B8BD );
     --border: #45EDF2;
+    --background-color: #181B20;
+    --fotter-background-color: #222630;
 }
 
 /* nav-section-start */
+#navigation{
+    background-color: var(--background-color);
+}
+
+
+.navbar-brand img{
+    width: 80%;
+}
+.social-nav img{
+  width: 15px;
+  height: 15px;
+}
+.nav-button{
+    /* background: var(--background-gradiant); */
+
+    padding: 12px 15px;
+    position: relative;
+    background-color: #222630   ;
+    background: linear-gradient(-155deg,transparent 45px , to bottom,#49299A,#45EDF2  0) top right,
+    linear-gradient(45deg, transparent 45px , #ddd 0) bottom left;
+    background-size: 100% 50%;background-repeat: no-repeat;
+}
 /* nav-section-end */
+/* .box{
+    width: 300px;
+    height: 300px;
+    background-color: #ddd;
+ position: relative;
+ margin: 100 auto;
+} */
+/* .two{
+    width: 300px;
+    height: 300px;
+    background-color: #ddd;
+    margin: 100 auto; 
+ position: relative;
+ 
+    background-color: #222630   ;
+    background: linear-gradient(-135deg,transparent 45px , #ddd 0) top right,
+    linear-gradient(45deg, transparent 45px , #ddd 0) bottom left;
+    background-size: 100% 50%;background-repeat: no-repeat;
+} */
