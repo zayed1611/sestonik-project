@@ -929,7 +929,7 @@ margin: auto;
     margin-left: 10px;
 }
 .news-tips-main{
-    margin-top: 100px !important;
+    margin-top: 50px !important;
 }
 .news-tips-main{
     width: 100%;
@@ -975,4 +975,157 @@ margin: auto;
 .news-tips-main-button i{
     margin-left: 10px;
 }
-    /* news-tips-section-end */
+ /* news-tips-section-end */
+ /* our-partners-section-start */
+#our-partners-section{
+    padding: 50px 0px ;
+    background-color: var(--background-color);
+}
+.our-team-header h2{
+    font-family: var(--font-family-heading);
+    color: var(--white);
+    text-align: center;
+    background: var(--background-gradiant);
+    -webkit-background-clip: text;
+    color: transparent; 
+}
+.partners img{
+    width: 80%;
+}
+
+/* our-partners-section-end     */
+
+
+/* fotter-section-start */
+#fotter-section{
+    padding: 50px 0px ;
+    background-color: var(--background-color);
+}
+
+.fotter-sestonik-header img{
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+.fotter-sestonik p{
+    text-align: center;
+    color: var(--white);
+  font-family: var(--font-family);
+  margin-top: 20px;
+}
+.fotter-sestonik h4{
+    text-align: center;
+    color: var(--border);
+  font-family: var(--font-family-heading);
+  margin-top: 20px;
+  font-size: 22px;
+}
+.payment{
+    display: flex;
+    margin: auto;
+    width: 100%;
+}
+.payment img{
+width: 25%;
+}
+.quick-links-header h4{
+    text-align: center;
+    color: var(--white);
+    margin-bottom: 40px;
+    font-family: var(--font-family-heading);
+}
+.quick-links a{
+    color: var(--white);
+    text-decoration: none;
+    display: block;
+    margin: auto;
+}
+.quick-links p{
+    text-align: center;
+    margin-top: -15px;
+    font-family: var(--font-family);
+    font-size: 18px;
+   
+}
+.quick-links a:hover{
+    color: var(--border);
+}
+.fotter-company-header h4{
+    text-align: center;
+    color: var(--white);
+    margin-bottom: 40px;
+    font-family: var(--font-family-heading);
+}
+.fotter-company p{
+    text-align: center;
+    margin-top: -15px;
+    font-family: var(--font-family);
+    font-size: 18px;
+    color: var(--white) ;
+   
+}
+
+.fotter-contact-header h4{
+    text-align: center;
+    color: var(--white);
+    margin-bottom: 40px;
+    font-family: var(--font-family-heading);
+}
+.fotter-contact p{
+    text-align: center;
+    margin-top: -15px;
+    font-family: var(--font-family);
+    font-size: 18px;
+    color: var(--white) ;
+   
+}
+.fotter-contact-social{
+    width: 50%;
+    margin: auto;
+}
+.fotter-contact-social i{
+    width: 20px;
+margin-left: 10px;
+}
+/* fotter-section-end */
+/* copyright-section-start */
+#copyright-section{
+   
+    background-color: var(--background-color);
+}
+.copyright{
+    padding: 20px 0px 10px 0px ;
+    border-top: 1px solid var(--border);
+}
+.copyright-ditails{
+    width: 30%;
+    margin: auto;
+}
+.copyright-ditails img{
+    width: 15px;
+    height: 15px;
+}
+.copyright-ditails span{
+    color: var(--white);
+    font-family: var(--font-family);
+    text-align: center;
+}
+/* copyright-section-end */
+
+
+
+/* about-hero-section-start */
+#about-hero-section{
+    padding: 20px 0px;
+    background-color: var(--background-color);
+}
+.about-hero h2{
+width: 200px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.about-hero h2{
+    color: var(--white);
+}
+/* about-hero-section-end */
