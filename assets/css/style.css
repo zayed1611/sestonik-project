@@ -184,11 +184,37 @@ font-family: cyberwar;
     width: 80%;
     
 }
-
-
-
 /* hero-section-end */
+.scrollup {
 
+    position: fixed;
+    width: 45px;
+    height: 45px;
+    background-color: var(--background-color-let);
+    bottom: 30px;
+    right: 50px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    /* border-radius: 5px; */
+    border: 1px solid var(--border);
+    clip-path: polygon(57% 0, 100% 35%, 100% 60%, 100% 100%, 39% 100%, 0 62%, 0 0);
+
+  }
+  
+  .scrollup i {
+    color:#fff;
+    font-size:20px;
+    /* line-height:33px; */
+  
+  }
+  
+  .scrollup:hover {
+    background: var(--border);
+  }
+
+  /* sldddkl */
 
 /* counter-section-start */
 #counter-section{
