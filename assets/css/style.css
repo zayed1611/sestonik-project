@@ -16,9 +16,11 @@
     --background-gra: linear-gradient(to bottom,#4A6D71,#092022);
     --border: #45EDF2;
     --background-color: #181B20;
-    --fotter-background-color: #222630;
+    --fotter-background-color: #080216;
     --white:#fff;
     --font-family-heading: Cyberwar;
+--font-size: 22px;
+--background-color-deffer: #0B041D ;
 }
 .container{
     width: 80% !important;
@@ -1025,7 +1027,7 @@ margin: auto;
 /* fotter-section-start */
 #fotter-section{
     padding: 50px 0px ;
-    background-color: var(--background-color);
+    background-color: var(--fotter-background-color);
 }
 
 .fotter-sestonik-header img{
@@ -1173,6 +1175,8 @@ border-bottom: 1px solid var(--border);
 /* about-hero-section-end */
 
 
+
+
 /* service-hero-section-start */
 #nav-service-hero-section{
     padding: 100px 0px;
@@ -1204,6 +1208,7 @@ border-bottom: 1px solid var(--border);
     font-size: 24px;
 }
 /* service-hero-section-end */
+
 
 
 
@@ -1241,6 +1246,10 @@ border-bottom: 1px solid var(--border);
 
 
 
+
+
+
+
 /* contact-hero-section-start */
 #nav-contact-hero-section{
     padding: 100px 0px;
@@ -1271,4 +1280,58 @@ border-bottom: 1px solid var(--border);
     font-family: var(--font-family);
     font-size: 24px;
 }
+
+/* nav-contact-section-start */
+#nav-contact-section{
+    padding: 50px 0px ;
+    background-color: var(--background-color);
+}
+
+.nav-contact{
+    padding: 20px;
+    clip-path: polygon(50% 0%, 100% 0, 100% 75%, 84% 100%, 0 100%, 0 24%, 17% 0);
+
+background: var(--background-color-deffer);
+
+    border: 1px solid var(--border);
+
+}
+.nav-contact img{
+    width: 50px;
+margin: auto;
+display: block;
+}
+.nav-contact h4{
+    text-align: center;
+    color: var(--white);
+    font-family: var(--font-family-heading);
+    margin-top: 30px;
+}
+.nav-contact p{
+    text-align: center;
+    color: var(--white);
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+}
+.nav-contact-button{
+    background: var(--background-gradiant);
+    font-family: cyberwar;
+        padding: 8px 20px !important;
+        font-size: 12px;
+      color: #fff !important;
+      clip-path: polygon(20% 0%, 84% 0, 100% 48%, 100% 100%, 80% 100%, 16% 100%, 0 50%, 0 0);
+      margin-top: 10px;
+     width: 140px;
+     margin: auto;
+     display: block !important;
+
+   /* margin: 40px 50px ; */
+}
+.nav-contact-button i{
+    margin-left: 10px;
+}  
+/* nav-contact-section-end */
+
+
+
 /* contact-hero-section-end */
