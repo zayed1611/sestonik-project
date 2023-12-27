@@ -58,10 +58,11 @@ font-family: cyberwar;
     font-size: 12px;
   color: #fff !important;
   clip-path: polygon(20% 0%, 84% 0, 100% 48%, 100% 100%, 80% 100%, 16% 100%, 0 50%, 0 0);
-
-
 }
-
+.nav-button:hover{
+    background: var(--fotter-background-color);
+    border: 1px solid var(--border) !important;
+}
 
 
 .dropdown:hover > .dropdown-menu {
@@ -168,16 +169,20 @@ font-family: cyberwar;
     font-size: 17px;
 }
 .hero-section-left-button{
-    background: var(--background-gradiant);
+    background: var(--background-color);
     font-family: cyberwar;
         padding: 5px 20px !important;
         font-size: 12px;
       color: #fff !important;
       clip-path: polygon(20% 0%, 84% 0, 100% 48%, 100% 100%, 80% 100%, 16% 100%, 0 50%, 0 0);
       margin-top: 10px;
+      border: 1px solid var(--border) !important;
 }
 .hero-section-left-button i{
     margin-left: 10px;
+}
+.hero-section-left-button:hover{
+    background: var(--background-gradiant);
 }
 .hero-section-right{
     padding: 60px 0px 100px 0px ;  
@@ -568,12 +573,16 @@ margin-top: 10px;
     padding: 20px 20px;
     background-color: #0B041D ;
     clip-path: polygon(18% 0, 100% 0, 100% 87%, 84% 100%, 0 100%, 0% 60%, 0 13%);
+    border: 1px solid var(--border);
   }
   .Security-content-img{
-    width: 40px;
-    height: 40px;
+    width: 40px !important;
+    /* height: 40px; */
     margin-left: 10px;
     margin-top: 10px;
+  }
+  .Security-content-img img{
+    width: 40px;
   }
   .Security-content h4{
     font-family: var(--font-family-heading);
@@ -610,20 +619,29 @@ margin-top: 10px;
     margin-top: -10px;
 }
 .Security-content-button{
-    background: var(--background-gradiant);
+    background: var(--background-color);
+    border: 1px solid var(--border) !important;
     font-family: cyberwar;
         padding: 5px 20px !important;
         font-size: 12px;
       color: #fff !important;
       clip-path: polygon(20% 0%, 84% 0, 100% 48%, 100% 100%, 80% 100%, 16% 100%, 0 50%, 0 0);
       margin-top: 10px;
-     width: 140px;
-     margin: auto;
-   margin: 40px 50px ;
+     width: 140px ;
+     margin: auto ;
+     display: block !important;
+     margin-bottom: 20px;
+
 }
 .Security-content-button i{
     margin-left: 10px;
 }  
+.Security-content-button:hover{
+    background: var(--background-gradiant);
+}
+.Security-content-button-first{
+    margin-top: 50px;
+}
 .Security-content-price-secend{
     display: flex;
     color: var(--white);
@@ -631,9 +649,7 @@ margin-top: 10px;
     width: 60%;
     margin: auto;
 }
-.Security-content-button-secend{
-    margin: 25px 50px;
-}
+
 
   .owl-dots {
     text-align: center;
@@ -951,7 +967,7 @@ margin: auto;
       clip-path: polygon(20% 0%, 84% 0, 100% 48%, 100% 100%, 80% 100%, 16% 100%, 0 50%, 0 0);
       margin-top: 10px;
     
-      display:inline-block ;
+
 }
 .news-tips-section-left-button i{
     margin-left: 10px;
@@ -1308,7 +1324,31 @@ font-size: var(--font-size);
   text-align: justify;
 }
 /* Overview-Service-section-end */
-
+/* Increased-net-section-start */
+#Increased-net-section{
+    padding: 50px 0px;
+    background-color: var(--background-color);
+}
+.Increased-net{
+    width: 80%;
+    margin: auto;
+}
+.Increased-left-img img {
+    width: 100%;
+}
+.Increased-right-content{
+    padding: 50px 0px;
+}
+.Increased-right-content h3{
+    font-family: var(--font-family-heading);
+    color: var(--border);
+}
+.Increased-right-content p{ 
+    font-family: var(--font-family);
+    color: var(--white);
+    font-size: 18px;
+}
+/* Increased-net-section-end */
 /* network-hero-section-end */
 
 
@@ -1347,6 +1387,9 @@ border-bottom: 1px solid var(--border);
     font-family: var(--font-family);
     font-size: 24px;
 }
+
+
+
 
 /* nav-contact-section-start */
 #nav-contact-section{
@@ -1397,6 +1440,7 @@ display: block;
 }  
 
 #send-us-section{
+    padding: 50px 0px 100px 0px;
     background-color: var(--background-color);
 }
 .send-us-header h2{
